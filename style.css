@@ -1,0 +1,329 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(193, 64, 64),rgb(202, 149, 149) ,rgb(158, 219, 237));
+    
+}
+
+.upper{
+    
+    display: flex;
+    background-color: bisque;
+    width: 100%;
+    height: 700px;
+    align-items: center; 
+    background-image: url(1k.jpg);
+    background-size: cover;
+
+    /* justify-content: center; */
+}
+
+.text-container{
+    display: flex;
+    background-image: url(7HHu.gif);
+    background-size: cover;
+    font-weight: 900;
+    color:transparent;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 5px rgba(229, 225, 225, 0.457);
+    font-size: 10rem;
+    letter-spacing: 10px;
+    left:0px;
+   
+
+    
+}
+.small-text{
+   color: rgba(0, 0, 0, 0.683);
+   text-decoration: solid black;
+   font-size: 5em;
+   font-weight: 900;
+   position: absolute;
+   top:190px;
+   letter-spacing: 8px;
+
+}
+.big{
+    margin-top: 50px;
+  
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic{
+    display: flex;
+}
+.profile-pic img{
+    
+    border-radius: 100%;
+    border: 2px rgb(86, 192, 238) solid;
+}
+
+.mid-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    justify-content: center;
+    
+}
+
+.skills img{
+    filter: grayscale(0px);
+    mix-blend-mode : darken;
+}
+
+.heading{
+    margin:50px;
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 10px;
+    letter-spacing: 30px;
+}
+
+.line{
+    width: 50%;
+    height: 2px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    transform: translate(50%, 50%);
+    margin-top: 50px;
+    margin-bottom:50px
+}
+
+.contactme{
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    letter-spacing: 30px;
+}
+
+.contact-sec{
+    background-color: rgb(255, 196, 196);
+    height: 15rem; 
+    display: flex;
+    justify-content: flex-end;
+    align-items:end;
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(202, 184, 184);
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    padding: 5px;
+  
+    width:100%;
+  
+  
+}
+.btn a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 25px;
+    margin: 20px;
+   
+}
+
+.btn a:hover{
+    background-color: rgb(131, 223, 235);
+    color:white;
+}
+.mid-info{
+    font-family: cursive;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+}
+
+
+
+/* ///media Query for phones */
+
+@media screen and (max-width : 428px){
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    
+    body{
+        background: linear-gradient(to bottom, rgb(193, 64, 64),rgb(202, 149, 149) ,rgb(158, 219, 237));
+        
+    }
+    
+    .upper{
+        
+        display: flex;
+        background-color: bisque;
+        width: 100%;
+        height: 650px;
+        align-items: center; 
+        background-image: url(1k.jpg);
+        background-size: cover;
+    
+        /* justify-content: center; */
+    }
+    
+    .text-container{
+        display: flex;
+        background-image: url(7HHu.gif);
+        background-size: cover;
+        font-weight: 900;
+        color:transparent;
+        -webkit-background-clip: text;
+        text-transform: uppercase;
+        text-shadow: 0px 0px 5px rgba(229, 225, 225, 0.457);
+        font-size: 3.4rem;
+        letter-spacing: 10px;
+        left:0px;
+       
+    
+        
+    }
+    .small-text{
+       color: rgba(0, 0, 0, 0.683);
+       text-decoration: solid black;
+       font-size: 3em;
+       font-weight: 900;
+       position: absolute;
+       top:240px;
+       letter-spacing: 8px;
+    
+    }
+    .big{
+        margin-top: 50px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .profile-pic{
+        display: flex;
+    }
+    .profile-pic img{
+        
+        border-radius: 100%;
+        border: 2px rgb(86, 192, 238) solid;
+    }
+    
+    .mid-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: x-large;
+        margin-top: 40px;
+        text-align: center;
+    
+    }
+    
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        justify-content: center;
+        
+    }
+    
+    .skills img{
+        filter: grayscale(0px);
+        mix-blend-mode : darken;
+        margin:10px
+    }
+    
+    .heading{
+        margin:50px;
+        font-size: 1.8em;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        letter-spacing: 10px;
+        
+    }
+    
+    .line{
+        width: 50%;
+        height: 2px;
+        background-color: rgb(252, 252, 252);
+        display: flex;
+        transform: translate(50%, 50%);
+        margin-top: 50px;
+        margin-bottom:50px
+    }
+    
+    .contactme{
+        font-size: 1.8em;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        letter-spacing: 10px;
+    }
+    
+    .contact-sec{
+        background-color: rgb(255, 196, 196);
+        height: 15rem; 
+        display: flex;
+        justify-content: flex-end;
+        align-items:end;
+        font-size: larger;
+        text-decoration: none;
+        color: rgb(202, 184, 184);
+    
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin:5px;
+        padding: 5px;
+      
+        width:100%;
+      
+      
+    }
+    .btn a{
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+        border: 2px solid rgb(255, 255, 255);
+        text-align: center;
+        border-radius: 12px;
+        padding: 10px;
+        font-size: 25px;
+        margin: 20px;
+       
+    }
+    
+    .btn a:hover{
+        background-color: rgb(131, 223, 235);
+        color:white;
+    }
+    .mid-info{
+        font-family: cursive;
+        font-size: 15px;
+        color:rgb(255, 255, 255);
+        
+    }
+    
+}

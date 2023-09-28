@@ -167,6 +167,7 @@ body{
     *{
         margin:0px;
         padding:0px;
+       
     }
     
     body{
@@ -178,10 +179,10 @@ body{
         
         display: flex;
         background-color: bisque;
-        width: 100%;
+        width:480px;
         height: 650px;
         align-items: center; 
-        background-image: url(1k.jpg);
+        background-image: url(1k.jpg) ;
         background-size: cover;
     
         /* justify-content: center; */
@@ -196,17 +197,17 @@ body{
         -webkit-background-clip: text;
         text-transform: uppercase;
         text-shadow: 0px 0px 5px rgba(229, 225, 225, 0.457);
-        font-size: 3.4rem;
+        font-size: 2.9rem;
         letter-spacing: 10px;
         left:0px;
-       
+        width: 100%;
     
         
     }
     .small-text{
        color: rgba(0, 0, 0, 0.683);
        text-decoration: solid black;
-       font-size: 3em;
+       font-size: 2.8em;
        font-weight: 900;
        position: absolute;
        top:240px;
